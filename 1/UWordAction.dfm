@@ -1,0 +1,45 @@
+object WordAction: TWordAction
+  Left = 1267
+  Top = 414
+  BorderStyle = bsDialog
+  Caption = #1042#1074#1077#1076#1080#1090#1077' '#1089#1083#1086#1074#1086
+  ClientHeight = 101
+  ClientWidth = 240
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object LWord: TLabeledEdit
+    Left = 16
+    Top = 32
+    Width = 209
+    Height = 21
+    EditLabel.Width = 34
+    EditLabel.Height = 13
+    EditLabel.Caption = #1057#1083#1086#1074#1086':'
+    TabOrder = 0
+  end
+  object BtOK: TBitBtn
+    Left = 48
+    Top = 64
+    Width = 65
+    Height = 25
+    Caption = #1054#1050
+    TabOrder = 1
+    OnClick = BtOKClick
+  end
+  object BtCancel: TBitBtn
+    Left = 120
+    Top = 64
+    Width = 65
+    Height = 25
+    Caption = 'Cancel'
+    TabOrder = 2
+    OnClick = BtCancelClick
+  end
+end
